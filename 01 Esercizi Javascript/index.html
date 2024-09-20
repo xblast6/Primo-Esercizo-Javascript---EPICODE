@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>PRIMO ESERCIZIO JAVASCRIPT - EPICODE</title>
+</head>
+<body>
+    
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 1</h3>
+        <p class="esercizio">Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 1</h3>
+        <ul>
+            <p>"I principali datatype in Javascript sono:"</p>
+            <li> "number: Hanno come valore un numero, può essere sia negativo che positvo"</li>
+            <li>"String: Hanno come valore qualsiasi carattere rinchiuso tra apici o virgolette(questa descrizione è una stringa)"</li>
+            <li>"Array: Sono un gruppo di elementi racchiusi nelle parentesi quadre, possono essere stringhe, numeri o oggetti"</li>
+            <li>"Object: Gli oggetti sono dei contenitori che racchiudono dei dati. I dati vengono rappresentati attraverso una coppia di chiave e valore"</li>
+            <li>"Booleani: i datatype booleani possono essere solo true o false, "</li>
+            <li>"Undefined: rappresenta una variabile che non ha un valore esistente. La variabile viene dichiarata, ma non ha valore"</li>
+            <li>"Null: Ha un valore nullo, la variabile viene dichiarata e gli viene dato un valore nullo 'null' "</p></li>
+        </ul>        
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 2</h3>
+        <p class="esercizio">Descrivi cos'è un oggetto in JavaScript, con parole tue.</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 2</h3>
+        <p>"Object: Gli oggetti sono dei contenitori che racchiudono dei valori dentro alle parentesi graffe. I dati vengono rappresentati attraverso una coppia di chiave e valore, la chiave viene seguita dai due punti, mentre per dividere i vari dati si usa la virgola"</p>       
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 3</h3>
+        <p class="esercizio">Scriti il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 3</h3>
+        <p>let primoNumero = 12;
+            let secondoNumero = 20;
+            let somma = primoNumero + secondoNumero;
+            console.log(somma);</p>       
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 4</h3>
+        <p class="esercizio">Crea una variable di nome "x" e assegna ad essa il numero 12.</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 4</h3>
+        <p>let x = 12;</p>       
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 5</h3>
+        <p class="esercizio">Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 5</h3>
+        <p>let name = "Alessandro"</p>       
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 6</h3>
+        <p class="esercizio">Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 6</h3>
+        <p>let sottrazione = 4 - x;</p>       
+    </div>
+
+    <div class="contenitore-esercizio">
+        <h3 class="titolo-esercizio">ESERCIZIO 7</h3>
+        <p class="esercizio">Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
+            Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
+            Infine, verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
+            NON HAI BISOGNO DI UN BLOCCO IF/ELSE. E' sufficiente utilizzare console.log().</p>
+    </div>
+
+    <div class="contenitore-risposta">
+        <h3>RISPOSTA 7</h3>
+        <p>let name1 = "john"
+            let name2 = "John"
+            console.log("john è diverso da John: " + name1 !== name2 );
+            console.log("Grazie alla proprietà toLowerCase ora sono uguali: " + (name1 == name2.toLowerCase()));</p>       
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

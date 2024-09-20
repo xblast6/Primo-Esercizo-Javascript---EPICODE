@@ -1,0 +1,122 @@
+/*.roboto-thin {
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 900;
+    font-style: italic;
+  }
+*/  
+html, body {
+    margin: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.contenitore-esercizio {
+    background-color: #8f3b76;
+    padding: 15px;
+    color: white;
+    width: 550px;
+    border-radius: 15pt;
+    margin-bottom: 30px;
+}
+
+.contenitore-risposta {
+    background-color: #553772;
+    padding: 15px;
+    color: white;
+    width: 550px;
+    border-radius: 15pt;
+    margin-bottom: 30px;
+    
+}
+
+h3 {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+}
+
+p, ul, li {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: italic;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+div {
+    position: relative;
+    transition: left 1s ;
+}
+
+div:hover {
+    left: 40px;
+}
